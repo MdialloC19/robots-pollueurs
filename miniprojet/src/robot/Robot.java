@@ -11,16 +11,16 @@ public abstract class Robot {
     protected int posY;
     protected Monde m;
 
-    /**
-     * Constructeur avec paramètre d'un robot avec une position spécifiée.
+     /**
+     * Constructeur avec paramètres d'un robot avec une position spécifiée.
      *
      * @param posX La coordonnée x de la position du robot.
      * @param posY La coordonnée y de la position du robot.
-     * @param m La référence du monde dans lequel le robot évolue.
+     * @param m    La référence du monde dans lequel le robot évolue.
      */
-    public Robot(int x, int y, Monde m) {
-        this.posX = x;
-        this.posY = y;
+    public Robot(int posX, int posY, Monde m) {
+        this.posX = posX;
+        this.posY = posY;
         this.m = m;
     }
 

@@ -11,7 +11,7 @@ public class Monde {
     /**
      * Constructeur par defaut qui cree un monde 10x10 sans papiers gras.
      */
-    
+
     public Monde() { 
         this.nbL = 10;
         this.nbC = 10;

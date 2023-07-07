@@ -35,6 +35,7 @@ public class TestRobots {
         pollueurSauteur.parcourir();
 
         // Affichage du monde après le parcours du robot pollueur sauteur
+        
         System.out.println("\nMonde après le parcours du robot pollueur sauteur :\n" + monde);
 
         // Parcours du robot pollueur tout droit

@@ -9,7 +9,7 @@ import src.robotpollueur.RobotPollueur;
  */
 public class PollueurSauteur extends RobotPollueur {
     private int deltax;
-    public int colDepart;
+    private int colDepart;
 
     /**
      * Constructeur qui crée un PollueurSauteur avec une position initiale (0, colDepart) dans le monde spécifié.

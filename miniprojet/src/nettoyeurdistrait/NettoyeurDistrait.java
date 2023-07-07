@@ -3,6 +3,9 @@ package src.nettoyeurdistrait;
 import src.monde.Monde;
 import src.robotnettoyeur.RobotNettoyeur;
 
+/**
+ * Cette classe represente un objet NettoyeurDistrait qui est une sous-classe de Robot.
+ */
 public class NettoyeurDistrait extends RobotNettoyeur {
 
     /**
