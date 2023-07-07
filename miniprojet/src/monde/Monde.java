@@ -4,16 +4,18 @@ package src.monde;
  * Cette classe represente un objet Monde qui contient des informations sur les cases et les robots.
  */
 public class Monde {
-    private int nbL;
-    private int nbC; 
-    private boolean[][] mat; 
+    protected int nbL;
+    protected int nbC; 
+    protected boolean[][] mat; 
 
     /**
      * Constructeur par defaut qui cree un monde 10x10 sans papiers gras.
      */
     
-    public Monde() {
-        this(10, 10); 
+    public Monde() { 
+        this.nbL = 10;
+        this.nbC = 10;
+        this.mat = new boolean[nbL][nbC]; 
     }
    
     /**
@@ -116,7 +118,7 @@ public class Monde {
      * @param j La coordonnee j de la case
      * @return true si les coordonnees sont valides, sinon false
      */
-    boolean estValide(int i, int j) {
+    public boolean estValide(int i, int j) {
         return i >= 0 && i < nbL && j >= 0 && j < nbC;
     }
 
