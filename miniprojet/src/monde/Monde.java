@@ -77,6 +77,8 @@ public class Monde {
         }
     }
 
+    jar -cvf monde nettoyeurdistrait pollueursauteur pollueurtoutdroit robot robotnettoyeur robotpollueur
+
     /**
      * Verifie si la case specifiee par les coordonnees (i, j) a un papier gras.
      *
